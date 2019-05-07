@@ -1,0 +1,15 @@
+[package]
+name = "module"
+version = "0.1.0"
+authors = ["fuyutarow <fuyutarow@gmail.com>"]
+categories = ["wasm"]
+description = "Wiener sauasge made from WASM w/ Rust"
+license = "MIT"
+readme = "./README.md"
+repository = "https://github.com/fuyutarow/Weiner-sausage"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.29"

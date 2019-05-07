@@ -1,0 +1,30 @@
+{
+  "name": "wiener-sausage",
+  "version": "1.0.0",
+  "description": "Wiener sauasge made from WASM w/ Rust",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuyutarow/Wiener-sausage.git"
+  },
+  "keywords": [
+    "wasm",
+    "Rust",
+    "WebGL"
+  ],
+  "author": "fuyutarow <fuyutarow@gmail.com> (fuyutarow.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuyutarow/Wiener-sausage/issues"
+  },
+  "homepage": "https://github.com/fuyutarow/Wiener-sausage#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-wasm.rs": "^1.2.9"
+  }
+}
